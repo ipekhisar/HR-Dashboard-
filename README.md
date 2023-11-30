@@ -53,7 +53,7 @@ retreachment = IF(ISBLANK( CALCULATE([Total Employees], 'HR Analytics Data'[Retr
 
 % Retreanche = DIVIDE([retreachment], [Total Employees],0)
 ```
-*-Calculate the performance for each employee and classification and  percantage of total
+*-Calculate the performance for each employee and classification and  percantage of total*
 ```
 High Rating count = CALCULATE([Total Employees], 'HR Analytics Data'[Performans Rating]="High Rating")
 
